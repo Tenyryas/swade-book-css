@@ -1,0 +1,96 @@
+.swade.sheet.item .sheet-body .header-field, .swade.sheet.actor.character .inventory .items-list .item-header, .swade.sheet.actor .sheet-body .header-field {
+  background: #b30e0e;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color : white;
+}
+.swade.sheet .window-content {
+  background: #faf9ed;
+  background-image: url("./ui/parchment.jpg");
+}
+.swade.sheet .tabs {
+    border-color: #b30e0e;
+}
+.swade.sheet .tabs .item {
+  background: #b30e0e;
+  color : white;
+  border-color: #b30e0e;
+}
+.swade.sheet .tabs .item:hover, .swade.sheet .tabs .item:focus {
+  background: #cc1010;
+  border-color: #cc1010;
+}
+.swade.sheet .tabs .item.active {
+  background: #cc1010;
+  color : white;
+  border-color: #cc1010;
+}
+.swade.sheet input[type=text]{
+    background: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet input[type=checkbox] + label::before {
+  border-color: #cc1010;
+}
+.swade.sheet input[type=checkbox]:checked + label::after {
+  color: #b30e0e;
+}
+.swade.sheet input[type=checkbox]:checked + label:hover::after {
+  color: #cc1010;
+}
+.swade.sheet.actor .sheet-body .editor {
+  border: 1px groove #FFFFFF;
+}
+.swade.sheet.actor .sheet-body .traits .attributes-list .attribute + .attribute {
+  border-left: 1px solid #b30e0e;
+}
+.swade.sheet.actor .sheet-body .traits .attributes-list .attribute select {
+    background: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .traits .attributes-list .attribute input {
+    background: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .gear .gear-list .gear-card {
+  border: 1px solid rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .gear .gear-list .gear-card .card-header {
+  background: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .gear .gear-list .gear-card .card-content {
+  border-top: 1px solid #FFFFFF;
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .gear .gear-list .gear-card .chips .chip .chip-content {
+  background-color: #b30e0e;
+}
+.swade.sheet.actor .sheet-body .powers input[type=text]{
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    font-weight: bold;
+}
+.swade.sheet.actor .sheet-body .powers .powers-list .power {
+  border: 1px solid rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor .sheet-body .powers .powers-list .power .power-header {
+  background: rgba(179, 175, 155, 0.5);
+  border-bottom: 1px solid rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor.character .vitals .bennies .benny-tracker .bennies-current {
+  background: rgba(179, 175, 155, 0.5);
+  border-bottom: 1px solid rgba(179, 175, 155, 1);
+}
+.swade.sheet.actor.character .vitals .bennies .benny-tracker .bennies-max {
+  background: rgba(179, 175, 155, 0.5);
+}
+.swade.sheet.actor.character .traits .skills-list li > * {
+  border-bottom: 1px solid #cc1010;
+}
+.swade.sheet.actor.character .edges .edges-hindrances-list .items-list .item + .item {
+  border-top: 1px solid #cc1010;
+}
+.swade.sheet.actor.character .inventory .items-list .item {
+  border-bottom: 1px solid #cc1010;
+}
+.swade.sheet.actor.npc .extra-gear-card {
+  border-bottom: 1px solid #cc1010;
+}

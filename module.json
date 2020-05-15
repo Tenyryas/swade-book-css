@@ -1,0 +1,15 @@
+{
+  "name": "swade-book-css",
+  "title": "SWADE Rulebook Theme",
+  "description": "<p>A character sheet theme for SWADE</p>",
+  "version": "1.0",
+  "author": "Kyane",
+  "systems": ["swade"],
+  "scripts": [],
+  "esmodules": [],
+  "styles": ["swade_book.css"],
+  "packs": [],
+  "url": "",
+  "compatibleCoreVersion" : "0.5.5",
+  "minimumCoreVersion": "0.5.5"
+}
