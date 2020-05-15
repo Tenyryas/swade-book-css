@@ -9,7 +9,9 @@
   "esmodules": [],
   "styles": ["swade_book.css"],
   "packs": [],
-  "url": "",
+  "url": "https://github.com/Tenyryas/swade-book-css",
+  "manifest": "https://raw.githubusercontent.com/Tenyryas/swade-book-css/master/module.json",
+  "download": "https://github.com/Tenyryas/swade-book-css/raw/master/swade-book-css.zip",
   "compatibleCoreVersion" : "0.5.5",
   "minimumCoreVersion": "0.5.5"
 }
