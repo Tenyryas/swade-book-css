@@ -40,13 +40,13 @@
 .swade.sheet.actor .sheet-body .editor {
   border: 1px groove #FFFFFF;
 }
-.swade.sheet.actor .sheet-body .traits .attributes-list .attribute + .attribute {
-  border-left: 1px solid #b30e0e;
+.swade.sheet.actor .sheet-body .attributes .attributes-list .attribute + .attribute {
+  border-left: 1px solid #cc1010;
 }
-.swade.sheet.actor .sheet-body .traits .attributes-list .attribute select {
+.swade.sheet.actor .sheet-body .attributes .attributes-list .attribute select {
     background: rgba(179, 175, 155, 0.5);
 }
-.swade.sheet.actor .sheet-body .traits .attributes-list .attribute input {
+.swade.sheet.actor .sheet-body .attributes .attributes-list .attribute input {
     background: rgba(179, 175, 155, 0.5);
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card {
@@ -82,7 +82,7 @@
 .swade.sheet.actor.character .vitals .bennies .benny-tracker .bennies-max {
   background: rgba(179, 175, 155, 0.5);
 }
-.swade.sheet.actor.character .traits .skills-list li > * {
+.swade.sheet.actor.character .skills .skills-list li > * {
   border-bottom: 1px solid #cc1010;
 }
 .swade.sheet.actor.character .edges .edges-hindrances-list .items-list .item + .item {
