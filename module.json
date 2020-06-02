@@ -2,7 +2,7 @@
   "name": "swade-book-css",
   "title": "SWADE Rulebook Theme",
   "description": "<p>A character sheet theme for SWADE</p>",
-  "version": "1.1",
+  "version": "1.0.1",
   "author": "Kyane",
   "systems": ["swade"],
   "scripts": [],
