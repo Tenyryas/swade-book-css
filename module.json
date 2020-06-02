@@ -2,7 +2,7 @@
   "name": "swade-book-css",
   "title": "SWADE Rulebook Theme",
   "description": "<p>A character sheet theme for SWADE</p>",
-  "version": "1.0.1",
+  "version": "1.0.11",
   "author": "Kyane",
   "systems": ["swade"],
   "scripts": [],
@@ -10,8 +10,8 @@
   "styles": ["swade_book.css"],
   "packs": [],
   "url": "https://github.com/Tenyryas/swade-book-css",
-  "manifest": "https://raw.githubusercontent.com/Tenyryas/swade-book-css/v1.0.1/module.json",
-  "download": "https://github.com/Tenyryas/swade-book-css/raw/v1.0.1/swade-book-css.zip",
+  "manifest": "https://raw.githubusercontent.com/Tenyryas/swade-book-css/v1.0.11/module.json",
+  "download": "https://github.com/Tenyryas/swade-book-css/raw/v1.0.11/swade-book-css.zip",
   "compatibleCoreVersion" : "0.5.7",
   "minimumCoreVersion": "0.5.7"
 }
