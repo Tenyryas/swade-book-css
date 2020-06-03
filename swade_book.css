@@ -1,5 +1,5 @@
 .swade.sheet.item .sheet-body .header-field, .swade.sheet.actor.character .inventory .items-list .item-header, .swade.sheet.actor .sheet-body .header-field {
-  background: #990609;
+  background: #991717;
   border: 1px solid transparent;
   border-radius: 4px;
   color : white;
@@ -9,12 +9,12 @@
   background-image: url("./ui/parchment.jpg");
 }
 .swade.sheet .tabs {
-    border-color: #990609;
+    border-color: #991717;
 }
 .swade.sheet .tabs .item {
-  background: #990609;
+  background: #991717;
   color : white;
-  border-color: #990609;
+  border-color: #991717;
 }
 .swade.sheet .tabs .item:hover, .swade.sheet .tabs .item:focus {
   background: #cd071e;
@@ -32,7 +32,7 @@
   border-color: #cd071e;
 }
 .swade.sheet input[type=checkbox]:checked + label::after {
-  color: #990609;
+  color: #991717;
 }
 .swade.sheet input[type=checkbox]:checked + label:hover::after {
   color: #cd071e;
@@ -61,7 +61,7 @@
   border-color: rgba(179, 175, 155, 0.5);
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card .chips .chip .chip-content {
-  background-color: #990609;
+  background-color: #991717;
 }
 .swade.sheet.actor .sheet-body .powers input[type=text]{
     background: rgba(255, 255, 255, 0.25);
