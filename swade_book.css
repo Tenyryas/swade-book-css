@@ -1,5 +1,5 @@
 .swade.sheet.item .sheet-body .header-field, .swade.sheet.actor.character .inventory .items-list .item-header, .swade.sheet.actor .sheet-body .header-field {
-  background: #b30e0e;
+  background: #990609;
   border: 1px solid transparent;
   border-radius: 4px;
   color : white;
@@ -9,39 +9,39 @@
   background-image: url("./ui/parchment.jpg");
 }
 .swade.sheet .tabs {
-    border-color: #b30e0e;
+    border-color: #990609;
 }
 .swade.sheet .tabs .item {
-  background: #b30e0e;
+  background: #990609;
   color : white;
-  border-color: #b30e0e;
+  border-color: #990609;
 }
 .swade.sheet .tabs .item:hover, .swade.sheet .tabs .item:focus {
-  background: #cc1010;
-  border-color: #cc1010;
+  background: #cd071e;
+  border-color: #cd071e;
 }
 .swade.sheet .tabs .item.active {
-  background: #cc1010;
+  background: #cd071e;
   color : white;
-  border-color: #cc1010;
+  border-color: #cd071e;
 }
 .swade.sheet input[type=text]{
     background: rgba(179, 175, 155, 0.5);
 }
 .swade.sheet input[type=checkbox] + label::before {
-  border-color: #cc1010;
+  border-color: #cd071e;
 }
 .swade.sheet input[type=checkbox]:checked + label::after {
-  color: #b30e0e;
+  color: #990609;
 }
 .swade.sheet input[type=checkbox]:checked + label:hover::after {
-  color: #cc1010;
+  color: #cd071e;
 }
 .swade.sheet.actor .sheet-body .editor {
   border: 1px groove #FFFFFF;
 }
 .swade.sheet.actor .sheet-body .attributes .attributes-list .attribute + .attribute {
-  border-left: 1px solid #cc1010;
+  border-left: 1px solid #cd071e;
 }
 .swade.sheet.actor .sheet-body .attributes .attributes-list .attribute select {
     background: rgba(179, 175, 155, 0.5);
@@ -61,7 +61,7 @@
   border-color: rgba(179, 175, 155, 0.5);
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card .chips .chip .chip-content {
-  background-color: #b30e0e;
+  background-color: #990609;
 }
 .swade.sheet.actor .sheet-body .powers input[type=text]{
     background: rgba(255, 255, 255, 0.25);
@@ -83,14 +83,14 @@
   background: rgba(179, 175, 155, 0.5);
 }
 .swade.sheet.actor.character .skills .skills-list li > * {
-  border-bottom: 1px solid #cc1010;
+  border-bottom: 1px solid #cd071e;
 }
 .swade.sheet.actor.character .edges .edges-hindrances-list .items-list .item + .item {
-  border-top: 1px solid #cc1010;
+  border-top: 1px solid #cd071e;
 }
 .swade.sheet.actor.character .inventory .items-list .item {
-  border-bottom: 1px solid #cc1010;
+  border-bottom: 1px solid #cd071e;
 }
 .swade.sheet.actor.npc .extra-gear-card {
-  border-bottom: 1px solid #cc1010;
+  border-bottom: 1px solid #cd071e;
 }
