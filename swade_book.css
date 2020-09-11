@@ -9,21 +9,21 @@
   background-image: url("./ui/parchment.jpg");
 }
 .swade.sheet .tabs {
-    border-color: #991717;
+    border-color: #991717 !important;
 }
 .swade.sheet .tabs .item {
-  background: #991717;
+  background: #991717 !important;
   color : white;
-  border-color: #991717;
+  border-color: #991717 !important;
 }
 .swade.sheet .tabs .item:hover, .swade.sheet .tabs .item:focus {
-  background: #cd071e;
-  border-color: #cd071e;
+  background: #cd071e !important;
+  border-color: #cd071e !important;
 }
 .swade.sheet .tabs .item.active {
-  background: #cd071e;
+  background: #cd071e !important;
   color : white;
-  border-color: #cd071e;
+  border-color: #cd071e !important;
 }
 .swade.sheet input[type=text]{
     background: rgba(0, 0, 0, 0.1);
