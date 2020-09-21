@@ -28,14 +28,18 @@
 .swade.sheet input[type=text]{
     background: rgba(0, 0, 0, 0.1);
 }
-.swade.sheet input[type=checkbox] + label::before {
-  border-color: #cd071e;
+.swade.sheet .checkmark {
+  background-color: rgba(0, 0, 0, 0.2);
 }
-.swade.sheet input[type=checkbox]:checked + label::after {
-  color: #991717;
+.swade.sheet .check-container:hover input ~ .checkmark {
+  background-color: #991717;
 }
-.swade.sheet input[type=checkbox]:checked + label:hover::after {
-  color: #cd071e;
+.swade.sheet .check-container input:checked ~ .checkmark {
+  background-color: #991717;
+}
+.swade.sheet .check-container .checkmark:after {
+  border: solid white;
+  border-width: 0 3px 3px 0;
 }
 .swade.sheet.actor .sheet-body .editor {
   border: 1px groove #FFFFFF;
