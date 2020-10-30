@@ -107,3 +107,10 @@
 .swade.sheet.actor .inventory .inventory-categories .item-titles {
     background: #000000;
 }
+
+.swade.sheet ::-webkit-scrollbar-thumb {
+    outline: none;
+    border-radius: 3px;
+    background: #860608;
+    border: 1px solid #cd071e;
+}
