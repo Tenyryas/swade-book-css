@@ -1,99 +1,104 @@
 .swade.sheet.item .sheet-body .header-field, .swade.sheet.actor.character .inventory .items-list .item-header, .swade.sheet.actor .sheet-body .header-field {
-  background: #991717;
-  border: 1px solid transparent;
-  border-radius: 6px;
-  color : white;
+    background: #991717;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color : white;
+}
+.swade.sheet a.item-create:hover, .swade.sheet a.add-effect:hover {
+  text-shadow: none;
 }
 .swade.sheet .window-content {
-  background: #ffe8b9;
-  background-image: url("./ui/parchment.jpg");
-  background-size: cover;
+    background: #ffe8b9;
+    background-image: url("./ui/parchment.jpg");
 }
 .swade.sheet .tabs {
     border-color: #991717 !important;
 }
 .swade.sheet .tabs .item {
-  background: #991717 !important;
-  color : white;
-  border-color: #991717 !important;
+    background: #991717 !important;
+    color : white;
+    border-color: #991717 !important;
 }
 .swade.sheet .tabs .item:hover, .swade.sheet .tabs .item:focus {
-  background: #cd071e !important;
-  border-color: #cd071e !important;
+    background: #cd071e !important;
+    border-color: #cd071e !important;
 }
 .swade.sheet .tabs .item.active {
-  background: #cd071e !important;
-  color : white;
-  border-color: #cd071e !important;
+    background: #cd071e !important;
+    color : white;
+    border-color: #cd071e !important;
 }
 .swade.sheet input[type=text]{
     background: rgba(0, 0, 0, 0.1);
 }
 .swade.sheet .checkmark {
-  background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .swade.sheet .check-container:hover input ~ .checkmark {
-  background-color: #cd071e;
-  border: solid #cd071e;
-  border-width: 1px;
+    background-color: rgba(153, 23, 23, 1);
+    border: 1px solid #D9CB9E;
 }
 .swade.sheet .check-container:hover input ~ .checkmark:after {
-  left: 5px;
-  top: 1px;
-  width: 5px;
-  height: 10px;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 .swade.sheet .check-container input:checked ~ .checkmark {
-  background-color: #991717;
+    background-color: rgba(153, 23, 23, 1);
 }
 .swade.sheet .check-container:hover input:checked ~ .checkmark {
-  background-color: #cd071e;
+    background-color: rgba(205, 7, 30, 1);
 }
 .swade.sheet .check-container .checkmark:after {
-  border: solid white;
-  border-width: 0 3px 3px 0;
+    border: solid white;
+    border-width: 0 3px 3px 0;
 }
 .swade.sheet .sheet-body .editor {
-  background-image: url("./ui/parchment2.jpg");
-  background-size: cover;
+    background-image: url("./ui/parchment2.jpg"); 
 }
 .swade.sheet.item .sheet-body .editor{
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
 }
-.swade.sheet.actor .sheet-body .biography .editor{
-  border: 1px solid rgba(153, 23, 23, 1);
-  border-top: 0;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+.swade.sheet.actor .sheet-body .editor{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 .swade.sheet.actor .sheet-body .header-field .fa-plus:hover {
-  filter: drop-shadow(0 0 5px #FFFFFF);
+    filter: drop-shadow(0 0 5px #FFFFFF);
 }
 .swade.sheet.actor .sheet-body .biography .header-field {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .swade.sheet.actor .sheet-body .attributes .attributes-list .attribute input {
     background: rgba(0, 0, 0, 0.1);
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card .card-header {
-  background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.swade.sheet.actor .sheet-body .gear .gear-list .gear-card .card-header .item-image{
+    border-radius: 6px;
 }
 .swade.sheet.actor .sheet-body .gear .gear-list .gear-card .card-content {
-  border-top: 1px solid #FFFFFF;
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(0, 0, 0, 0.1);
-}
-.swade.sheet.actor .sheet-body .gear .gear-list .gear-card .chips .chip .chip-content {
-  background-color: #991717;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    background-image: url("./ui/parchment2.jpg"); 
 }
 .swade.sheet.actor .sheet-body .powers input[type=text]{
     background: rgba(0, 0, 0, 0.1);
@@ -101,102 +106,98 @@
     font-weight: bold;
 }
 .swade.sheet.actor .powers .arcane-tabs .arcane {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  background: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 .swade.sheet.actor .powers .arcane-tabs .arcane:hover, .swade.sheet.actor .powers .arcane-tabs .arcane:focus {
-  background: rgba(0, 0, 0, 0.2);
-  text-shadow: none;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    text-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .swade.sheet.actor .powers .arcane-tabs .arcane.active {
-  background: #cd071e;
-  border: 1px solid rgb(130, 0, 0);
+    background: #cd071e;
+    border: 1px solid rgb(130, 0, 0);
 }
 .swade.sheet.actor .sheet-body .powers input[type=text]::placeholder{
     color: rgba(255, 255, 255, 0.75);
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power {
-  border: 0px solid #991717;
-  background-image: url("./ui/parchment2.jpg");
-  background-size: cover;
-  border-radius: 10px;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background-image: url("./ui/parchment2.jpg");
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power .item-image {
-  border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power .power-header {
-  background: #991717;
-  border-bottom: 0px solid rgba(0, 0, 0, 0.1);
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  color: white;
+    background: #991717;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
 }
 .swade.sheet.actor .sheet-body .powers .powers-list .power .power-header .fas:hover {
-  filter: drop-shadow(0 0 5px #FFFFFF);
+    filter: drop-shadow(0 0 5px #FFFFFF);
+}
+.swade.sheet.actor .powers .powers-list .power .power-header .item-controls .item-unequipped{
+  text-shadow: none;
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls {
-  color: white;
+    color: white;
+}
+.swade.sheet.actor .powers .powers-list .power .power-header .item-controls a:hover{
+  text-shadow: none;
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls .fas {
-  font-weight: normal;
+    font-weight: normal;
 }
 .swade.sheet.actor .powers .powers-list .power .power-header .item-controls .fa-star {
-  font-weight: bold;
+    font-weight: bold;
 }
 .swade.sheet.actor.character .vitals .bennies .benny-tracker .bennies-current {
-  background: rgba(0, 0, 0, 0.1);
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom: 1px solid rgba(179, 175, 155, 1);
+    background: rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid rgba(179, 175, 155, 1);
 }
 .swade.sheet.actor.character .vitals .bennies .benny-tracker .bennies-max {
-  background: rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
 .swade.sheet.actor .inventory .inventory-categories .item-titles {
-  background: #000000;
-  border-radius: 0px;
+    background: #000000;
+    border-radius: 0px;
 }
 .swade.sheet.actor .inventory .inventory-categories .item-image{
-  border-radius: 5px;
-}
-.swade.sheet.actor .sheet-body .quickaccess-list .gear-list .gear-card .card-header .item-image{
-  border-radius: 5px;
-}
-.swade.sheet.actor .sheet-body .quickaccess-list .gear-list .gear-card .card-header{
-  border-top-left-radius: 5px;
+    border-radius: 5px;
 }
 .swade.sheet ::-webkit-scrollbar-thumb {
-  outline: none;
-  border-radius: 3px;
-  background: #860608;
-  border: 1px solid #cd071e;
+    outline: none;
+    border-radius: 3px;
+    background: #860608;
+    border: 1px solid #cd071e;
 }
 #chat-log .chat-message {
-  background-image: url("./ui/parchment.jpg");
+    background-image: url("./ui/parchment.jpg");
 }
 textarea#chat-message {
- background-image: url("./ui/parchment.jpg");
-  background-size: cover;
+    background-image: url("./ui/parchment.jpg");
 }
 #chat-log .chat-message.whisper {
-  background-image: url("./ui/IMG_00041.jpg");
-  background-size: cover;
+    background-image: url("./ui/IMG_00041.jpg");
 }
 .swade.chat-card .card-header {
- background: #991717;
- margin-left: -5px;
- border-top: none;
- border-top-right-radius: 10px;
- border-bottom-right-radius: 10px;
- border-bottom: none;
- box-shadow: 0px 15px 10px -15px rgba(0,0,0,1);
+    background: #991717;
+    margin-left: -5px;
+    border-top: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: none;
+    box-shadow: 0px 15px 10px -15px rgba(0,0,0,1);
 }
 .swade.chat-card .card-header:hover {
-  background: #cd071e;
+    background: #cd071e;
 }
 .swade.chat-card .card-header img {
     flex: 0 0 36px;
@@ -207,8 +208,8 @@ textarea#chat-message {
     box-shadow: 0px 0px 4px rgba(0,0,0,1);
 }
 .swade.chat-card .card-header a {
- color: #fff;
+    color: #fff;
 }
 .swade.chat-card .card-header a:hover {
-  text-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 7px #fff;
 }
