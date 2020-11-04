@@ -186,6 +186,7 @@ textarea#chat-message {
 }
 #chat-log .chat-message.whisper {
     background-image: url("./ui/IMG_00041.jpg");
+    background-size: cover;
 }
 .swade.chat-card .card-header {
     background: #991717;
